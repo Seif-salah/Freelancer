@@ -1,0 +1,49 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+    
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+section{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+span span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #1877F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+span p{
+    margin-top: 1px;
+}
+span span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #1877F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+span p{
+    margin-top: 1px;
+}
+#first {
+    margin-right: 5px;
+}
+/* .form-outline.mb-4.d-inline{
+    display: inline;
+} */

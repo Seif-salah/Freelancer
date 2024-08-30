@@ -1,0 +1,21 @@
+nav {
+    z-index: 999;
+    display: block;
+    position: sticky;
+    top: 0;
+    height: auto;
+}
+span span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #1877F2;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+span p{
+    margin-top: 1px;
+    font-size: 2.5rem;
+}

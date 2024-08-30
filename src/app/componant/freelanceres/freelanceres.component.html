@@ -1,0 +1,26 @@
+<app-nav></app-nav>
+<div class="container mt-5 mb-3">
+    <div class="row">
+        @for(user of users ;track user.id ){
+        <a class="col-md-4" [routerLink]="['/user',user.id]">
+            <div class="card border p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <img class="bx rounded bxl-mailchimp" src="assets/pho.jpeg"> </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0">{{user.firstName}}  {{user.lastName}}</h6> <span>{{user.rating}} star</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h3 class="heading">Senior Product<br>Designer-Singapore</h3>
+                    <div class="badge"> <span>Design</span> </div>
+                </div>
+            </div>
+        </a>
+    }
+        
+    </div>
+</div>
+<app-footer></app-footer>
